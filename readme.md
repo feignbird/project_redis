@@ -87,7 +87,7 @@ run redis-cli on another terminal
 
 
 
-`Now you can hit 'http://0.0.0.0:9000/get_a/' url to get the data of 'table A' & it can take a minute, Now next time you hit the url again redis will show its magic.....the response will be fast (in ms), If you want to clear the redis simply hit 'http://0.0.0.0:9000/clear-cache/' url & the redis DB will be flushed`
+`Now you can hit 'http://0.0.0.0:9000/get-a/' url to get the data of 'table A' & it can take a minute, Now next time you hit the url again redis will show its magic.....the response will be fast (in ms), If you want to clear the redis simply hit 'http://0.0.0.0:9000/clear-cache/' url & the redis DB will be flushed`
 
 
 
