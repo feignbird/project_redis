@@ -32,6 +32,7 @@ class TableAView(viewsets.ModelViewSet):
     pagination_class = GeneralPagination
     queryset = TableA.objects.all().order_by('id')
     serializer_class = TableASerializer
+    http_method_names = ['get']
 
     @method_decorator(vary_on_cookie)
     @method_decorator(cache_page(CACHE_TTL))
@@ -43,6 +44,7 @@ class TableBView(viewsets.ModelViewSet):
     pagination_class = GeneralPagination
     queryset = TableB.objects.all().order_by('id')
     serializer_class = TableBSerializer
+    http_method_names = ['get']
 
 
     @method_decorator(vary_on_cookie)
@@ -55,6 +57,7 @@ class TableCView(viewsets.ModelViewSet):
     pagination_class = GeneralPagination
     queryset = TableC.objects.all().order_by('id')
     serializer_class = TableCSerializer
+    http_method_names = ['get']
 
     @method_decorator(vary_on_cookie)
     @method_decorator(cache_page(CACHE_TTL))
@@ -66,6 +69,7 @@ class TableDView(viewsets.ModelViewSet):
     pagination_class = GeneralPagination
     queryset = TableD.objects.all().order_by('id')
     serializer_class = TableDSerializer
+    http_method_names = ['get']
 
     @method_decorator(vary_on_cookie)
     @method_decorator(cache_page(CACHE_TTL))
@@ -77,6 +81,7 @@ class TableEView(viewsets.ModelViewSet):
     pagination_class = GeneralPagination
     queryset = TableE.objects.all().order_by('id')
     serializer_class = TableESerializer
+    http_method_names = ['get']
 
     @method_decorator(vary_on_cookie)
     @method_decorator(cache_page(CACHE_TTL))

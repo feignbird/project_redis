@@ -100,14 +100,14 @@ run redis-cli on another terminal
 3. GET http://localhost:9000/get-c/ <- Gives data of table C
 4. GET http://localhost:9000/get-b/ <- Gives data of table B
 5. GET http://localhost:9000/get-a/ <- Gives data of table A
-
 6. GET http://localhost:9000/clear-cache/ <- It'll clear the cache in redis
 7. Goto URL: http://localhost:9000/admin/ <- Log into admin panel
+8. GET http://localhost:9000/swagger.json <- get swagger.json data
+9. Goto URL: http://localhost:9000/swagger/ <- Opens up swagger for the project
+10. Goto URL: http://localhost:9000/redoc/ <- Opens up redoc generator for project <br>
 
-
-
-<h6> First of all redis should be installed correctly </h6>
-<h6> refer above if you haven't </h6>
+<h3> First of all redis should be installed correctly </h3>
+<h3> refer above if you haven't </h3>
 
 ### How to work with redis
 1. pip install django-redis && pip install redis
