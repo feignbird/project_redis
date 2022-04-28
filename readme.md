@@ -91,6 +91,21 @@ run redis-cli on another terminal
 
 
 
+## API Endpoints
+### There are total of 7 endpoints <br>
+` First time -> you hit the GET request at any endpoint -> it will take some time & the response is also cached in redis for 2 minutes` <br>
+` Next time -> you hit the GET request at any endpoint -> it will be fast because the cached data is coming ` <br>
+1. GET http://localhost:9000/get-e/ <- Gives data of table E 
+2. GET http://localhost:9000/get-d/ <- Gives data of table D
+3. GET http://localhost:9000/get-c/ <- Gives data of table C
+4. GET http://localhost:9000/get-b/ <- Gives data of table B
+5. GET http://localhost:9000/get-b/ <- Gives data of table A
+
+6. GET http://localhost:9000/clear-cache/ <- It'll clear the cache in redis
+7. Goto URL: http://localhost:9000/admin/ <- Log into admin panel
+
+
+
 <h6> First of all redis should be installed correctly </h6>
 <h6> refer above if you haven't </h6>
 
