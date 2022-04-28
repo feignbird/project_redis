@@ -99,7 +99,7 @@ run redis-cli on another terminal
 2. GET http://localhost:9000/get-d/ <- Gives data of table D
 3. GET http://localhost:9000/get-c/ <- Gives data of table C
 4. GET http://localhost:9000/get-b/ <- Gives data of table B
-5. GET http://localhost:9000/get-b/ <- Gives data of table A
+5. GET http://localhost:9000/get-a/ <- Gives data of table A
 
 6. GET http://localhost:9000/clear-cache/ <- It'll clear the cache in redis
 7. Goto URL: http://localhost:9000/admin/ <- Log into admin panel
